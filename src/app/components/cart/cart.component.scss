@@ -1,0 +1,26 @@
+li {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+        border-bottom: 1px solid rgb(190, 190, 190);
+    }
+
+    img {
+        width: 30%;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            width: 40px;
+        }
+    }
+}
+
+.total {
+    display: flex;
+    justify-content: flex-end;
+}

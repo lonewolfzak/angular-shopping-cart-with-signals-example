@@ -1,0 +1,18 @@
+<div class="header">
+    <h2>Angular Signals Shopping Cart Example </h2>
+    <button mat-raised-button
+            (click)="openCart()"
+            color="primary">{{cartService.cart()?.length}} Products
+    </button>
+</div>
+
+
+<br>
+<br>
+<br>
+
+<div class="grid">
+    @for (product of productService.products(); track product) {
+    <app-product [product]="product"></app-product>
+    }
+</div>

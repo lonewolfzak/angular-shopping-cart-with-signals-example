@@ -1,0 +1,28 @@
+<ul>
+    @for (product of cartService.cart(); track product; let idx = $index){
+    <li>
+        <img [src]="product?.image"
+             alt="">
+        <div>
+            <h3>{{product?.name}}</h3>
+            <p>
+                {{product?.brand}}
+            </p>
+            <span>{{product?.price}} USD</span>
+            <input type="number"
+                   min="1"
+                   [value]="product?.quantity"
+                   (change)="onQuantityChange($event, product)">
+        </div>
+
+        <button (click)="onRemoveItem(idx)">Remove</button>
+    </li>
+    }@empty {
+    <li> There are no items. </li>
+    }
+</ul>
+
+
+<div class="total">
+    <span>Total: {{cartService.cartTotal()}} USD</span>
+</div>

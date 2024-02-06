@@ -1,0 +1,19 @@
+img {
+    width: 100%;
+}
+
+mat-card {
+    background-color: #232334;
+}
+
+mat-card-content {
+    padding: 20px 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+mat-card-actions {
+    padding: 20px 10px;
+}

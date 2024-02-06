@@ -1,0 +1,44 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Cloud Headset for PC/PS4/PS5",
+            "brand": "TechGadget",
+            "price": 499.99,
+            "category": "Electronics",
+            "image": "https://www.maxgaming.com/img/bilder/artiklar/14493.jpg?m=1666611417&w=720"
+        },
+        {
+            "id": 2,
+            "name": " Blackshark V2 SE Multi-Platform Gaming Headset",
+            "brand": "FitLife",
+            "price": 79.99,
+            "category": "Health & Fitness",
+            "image": "https://www.maxgaming.com/img/bilder/artiklar/19541.jpg?m=1631793543&w=720"
+        },
+        {
+            "id": 3,
+            "name": " G PRO X SUPERLIGHT 2 Wireless Gaming Mouse - Black",
+            "brand": "BrewMaster",
+            "price": 89.99,
+            "category": "Home & Kitchen",
+            "image": "https://www.maxgaming.com/img/bilder/artiklar/28010.jpg?m=1692971556&w=720"
+        },
+        {
+            "id": 4,
+            "name": " M8 Retro Game Console - 64G HDMI Game Stick - 1000 Games",
+            "brand": "SoundBeats",
+            "price": 129.99,
+            "category": "Electronics",
+            "image": "https://www.maxgaming.com/img/bilder/artiklar/27035.jpg?m=1680781777&w=720"
+        },
+        {
+            "id": 5,
+            "name": " Playstation 5 DualSense Wireless PS5 Controller - White",
+            "brand": "AdventureGear",
+            "price": 49.99,
+            "category": "Travel & Outdoor",
+            "image": "https://www.maxgaming.com/img/bilder/artiklar/17130.jpg?m=1600783640&w=720"
+        }
+    ]
+}
